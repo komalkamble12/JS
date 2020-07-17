@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 1</title>
+</head>
+<body>
+    <h4>welcome</h4>
+    <script>
+//var is a global variable
+ //It is accessible anywhere in the program
+ 
+ var name = 'komal';
+console.log(name);
+
+var country = {
+    name : 'india',
+    state : 'maharashtra',
+    city : 'pune',
+}
+ console.log(country);
+
+ var a = null;
+ console.log(a);
+
+ var b = '50';
+ console.log(b);
+
+/* let declare as a local variable.declare inside in scope
+it is accessible only in defined scope. 
+let improves code redability */
+ 
+{
+    /*here using let we can assign 
+    another value to the variable name but it 
+    accessible within this curly braces only */
+    let name = 'komal';
+    console.log(name);
+}
+ /* out of the curly braces, we get 
+ our original value of variable name */
+
+console.log(name);
+
+
+/*if we want the constant value to our 
+variable throughout the program then 
+ we use the const keyword*/
+
+ const  s = '150';
+ console.log(s);
+
+ const str = [ 'a'  , 'b' , 'c' ]
+
+console.log(str);
+
+/* we can add another value to variable number 
+but cannot change the constant value */
+
+str.push('d' , 'e');
+console.log(str);
+
+
+ </script>
+</body>
+</html>
