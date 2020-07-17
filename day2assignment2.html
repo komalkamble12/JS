@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 2</title>
+</head>
+<body>
+    <h5>  </h5>
+    <script>
+
+//String
+
+        let str = 'Always Keep Smiling';
+         console.log(str);
+         console.log(str[5]);
+         console.log(str.toUpperCase());
+         console.log(str.toLowerCase());
+    
+    
+    // Replace method
+    console.log(str.replace('Keep Smiling','Be Positive'));
+    
+    // Slice method
+    console.log(str.slice(0,6));
+
+// Substring method
+console.log(str.substring(7,11))
+
+
+// Array
+
+    let data = ['komal','pune','india',[20,20]];
+
+    console.log(data);
+    console.log(Array.isArray(data));
+    console.log(data[2])
+
+    let arr1 = ['a','b','c'];
+    let arr2 = ['d','e','f'];
+    
+    arr2.pop();
+    console.log(arr2);
+    //unshift
+    arr1.unshift('null');
+    console.log(arr1);
+    //shift
+    arr1.shift('null');
+    console.log(arr1);
+    //concate
+    console.log(arr1.concat(arr2));
+    //push
+    arr2.push('g');
+    console.log(arr2);
+    //pop
+
+
+    //indexOf
+      console.log(arr2.indexOf('f'));
+
+
+    //splice
+    arr2.splice(1,1);
+    console.log(arr2);
+
+
+    // slice
+    console.log(str.slice(0,6));
+ 
+
+    //includes
+     ans = arr2.includes('h')
+     console.log(ans);
+     
+
+    </script>
+    
+</body>
+</html>
